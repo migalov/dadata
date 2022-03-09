@@ -1,0 +1,11 @@
+<div class="form-search">
+   {% for key, input in inputs %}
+      {% include './input.twig' with {
+         "name": input.name,
+         "title": input.title,
+         "selectList": input.selectList,
+         "allowEdit": input.allowEdit
+      } %}
+   {% endfor %}
+   <input class="form-search__clear" type="button" value="Очистить">
+</div>

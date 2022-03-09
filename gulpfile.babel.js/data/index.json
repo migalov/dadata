@@ -1,0 +1,27 @@
+{
+   "title": "Поиск организации",
+   "inputs": [
+      {
+         "name": "party",
+         "title": "Компания или ИП",
+         "selectList": true,
+         "allowEdit": true
+      },
+      {
+         "name": "name_short",
+         "title": "Краткое наименование"
+      },
+      {
+         "name": "name_full",
+         "title": "Полное наименование"
+      },
+      {
+         "name": "inn_kpp",
+         "title": "ИНН / КПП"
+      },
+      {
+         "name": "adress",
+         "title": "Адрес"
+      }
+   ]
+}
